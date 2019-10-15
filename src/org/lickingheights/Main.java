@@ -19,17 +19,26 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Scanner keyboard;
-        keyboard = new Scanner(System.in);
-        String name;
+multiply(2,3);
+    System.out.println(multiply(2,3));}
 
-        System.out.println("Hello World");
+     public static int multiply(int number1,int number2){
 
-     System.out.print("What is your name");
-     name = keyboard.nextLine();
-     System.out.print("Hello" + name);
+
+    return number1*number2;
+    }
+    //method four
+
+
+
+
+
+
+
+
+
+
 
 
 
     }
-}
